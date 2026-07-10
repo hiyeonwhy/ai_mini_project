@@ -11,19 +11,19 @@ import numpy as np
 import cv2
 
 FASHION_CLASS_KO_MAP = {
-    "short sleeve top": "반팔 상의",
-    "long sleeve top": "긴팔 상의",
-    "short sleeve outwear": "반팔 아우터",
-    "long sleeve outwear": "긴팔 아우터",
+    "short_sleeve_top": "반팔 상의",
+    "long_sleeve_top": "긴팔 상의",
+    "short_sleeve_outwear": "반팔 아우터",
+    "long_sleeve_outwear": "긴팔 아우터",
     "vest": "조끼",
     "sling": "민소매 상의",
     "shorts": "반바지",
     "trousers": "바지",
     "skirt": "스커트",
-    "short sleeve dress": "반팔 원피스",
-    "long sleeve dress": "긴팔 원피스",
-    "vest dress": "민소매 원피스",
-    "sling dress": "슬링 원피스",
+    "short_sleeve_dress": "반팔 원피스",
+    "long_sleeve_dress": "긴팔 원피스",
+    "vest_dress": "민소매 원피스",
+    "sling_dress": "슬링 원피스",
 
     "short_sleeved_shirt": "반팔 셔츠",
     "long_sleeved_shirt": "긴팔 셔츠",
@@ -32,7 +32,6 @@ FASHION_CLASS_KO_MAP = {
     "sling_dress": "슬링 원피스",
     "vest_dress": "민소매 원피스",
 }
-
 
 class TokenManager:
     """
